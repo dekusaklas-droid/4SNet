@@ -33,6 +33,12 @@ Example command:
 ```bash
 python train.py
 ```
+## Test
+python test.py
+## Result
+<img width="1043" height="794" alt="image" src="https://github.com/user-attachments/assets/a2c89bc9-2aae-4c25-84cd-13b62b955228" />
+<img width="964" height="514" alt="image" src="https://github.com/user-attachments/assets/8e788a22-e3cf-4690-abb5-12bbfec7ae6d" />
+
 
 ## Citation
 
