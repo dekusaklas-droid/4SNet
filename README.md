@@ -16,7 +16,7 @@ The framework introduces two key modules:
 Example command:
 
 ```bash
-git clone https://github.com/minyuanye/SIUN.git
+git clone https://github.com/dekusaklas-droid/4SNet.git
 cd code
 ```
 
