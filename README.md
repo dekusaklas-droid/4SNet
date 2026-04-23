@@ -31,14 +31,15 @@ Organize the datasets under your local dataset directory.
 Example command:
 
 ```bash
-python train.py# 4SNet
-
-
+python train.py
+```
 
 ## Citation
-@article{4snet,
+
+```bibtex
+@misc{4snet,
   title={4SNet: Spatial and Spectrum Self-adaptive Synergy Network for Visible-Infrared Person Re-Identification},
   author={Xiong, Mingfu and Luo, Feiyang and Huang, Junjie and Guo, Yifei and Alotaibi, Aziz and Bakshi, Sambit and Del Ser, Javier and Muhammad, Khan},
-  journal={under review},
-  year={2025}
+  year={2026},
+  note={Under review}
 }
