@@ -35,17 +35,29 @@ Please prepare the following datasets before training and testing:
 
 
 ## Training
-Example command:
+Train a model by:
 
 ```bash
 python train.py --dataset llcm --gpu 0
 ```
-## Test
-Example command:
+--dataset: which dataset "llcm", "sysu" or "regdb".
 
+--gpu: which gpu to run.
+## Test
+Test a model on LLCM, SYSU-MM01 or RegDB dataset by
 ```bash
 python test.py --mode all --tvsearch True --resume 'model_path' --gpu 0 --dataset llcm
 ```
+--dataset: which dataset "llcm", "sysu" or "regdb".
+
+--mode: "all" or "indoor" all search or indoor search (only for sysu dataset).
+
+--tvsearch: whether thermal to visible search (only for RegDB dataset).
+
+--resume: the saved model path.
+
+--gpu: which gpu to run.
+
 ## Results
 <img width="1050" height="1000" alt="image" src="https://github.com/user-attachments/assets/16d452a9-70a3-4440-a3ba-1476e94ac1cb" />
 
