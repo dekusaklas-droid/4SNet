@@ -12,6 +12,14 @@ The framework introduces two key modules:
 - **Adaptive Frequency Filter (AFF):** performs modality-specific and input-adaptive early frequency filtering.
 - **Spectrum Synergy Module (SSM):** decomposes features into low-, middle-, and high-frequency bands and exploits their synergy for robust cross-modality alignment.
 
+## Installation
+Example command:
+
+```bash
+git clone https://github.com/minyuanye/SIUN.git
+cd code
+```
+
 ## Environment
 - Python 3.10
 - PyTorch
