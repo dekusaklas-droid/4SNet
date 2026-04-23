@@ -1,18 +1,9 @@
 # 4SNet
 
 # 4SNet: Spatial and Spectrum Self-adaptive Synergy Network for Visible-Infrared Person Re-Identification
+by Mingfu Xionga, Feiyang Luoa, Junjie Huang*a, Yifei Guob, Aziz Alotaibic,
+Sambit Bakshid, Javier Del Sere,f, Khan Muhammad*g
 
-**Mingfu Xiong**<sup>a</sup>, **Feiyang Luo**<sup>a</sup>, **Junjie Huang**<sup>a,\*</sup>, **Yifei Guo**<sup>b</sup>, **Aziz Alotaibi**<sup>c</sup>, **Sambit Bakshi**<sup>d</sup>, **Javier Del Ser**<sup>e,f</sup>, **Khan Muhammad**<sup>g,\*</sup>
-
-<sup>a</sup> Affiliation A  
-<sup>b</sup> Affiliation B  
-<sup>c</sup> Affiliation C  
-<sup>d</sup> Affiliation D  
-<sup>e</sup> Affiliation E  
-<sup>f</sup> Affiliation F  
-<sup>g</sup> Affiliation G  
-
-\* Corresponding authors
 <img width="1026" height="536" alt="image" src="https://github.com/user-attachments/assets/b7e370be-4eeb-4da8-802e-7e723bac490d" />
 
 ## Introduction
