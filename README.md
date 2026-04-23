@@ -46,7 +46,7 @@ Example command:
 ```bash
 python test.py --mode all --tvsearch True --resume 'model_path' --gpu 0 --dataset llcm
 ```
-## Result
+## Results
 <img width="1050" height="1000" alt="image" src="https://github.com/user-attachments/assets/16d452a9-70a3-4440-a3ba-1476e94ac1cb" />
 
 <img width="964" height="514" alt="image" src="https://github.com/user-attachments/assets/8e788a22-e3cf-4690-abb5-12bbfec7ae6d" />
