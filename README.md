@@ -13,8 +13,6 @@ The framework introduces two key modules:
 - **Spectrum Synergy Module (SSM):** decomposes features into low-, middle-, and high-frequency bands and exploits their synergy for robust cross-modality alignment.
 
 ## Installation
-Example command:
-
 ```bash
 git clone https://github.com/dekusaklas-droid/4SNet.git
 cd code
