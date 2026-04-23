@@ -57,9 +57,11 @@ python test.py --mode all --tvsearch True --resume 'model_path' --gpu 0 --datase
 --gpu: which gpu to run.
 
 ## Results
-<img width="1050" height="1000" alt="image" src="https://github.com/user-attachments/assets/16d452a9-70a3-4440-a3ba-1476e94ac1cb" />
+<img width="865" height="841" alt="image" src="https://github.com/user-attachments/assets/dd6a496f-ac88-46d1-99e3-23b1c7aed291" />
 
-<img width="964" height="514" alt="image" src="https://github.com/user-attachments/assets/8e788a22-e3cf-4690-abb5-12bbfec7ae6d" />
+
+<img width="808" height="434" alt="image" src="https://github.com/user-attachments/assets/d301cf44-6dd7-4e7d-aba4-3c399dba2e42" />
+
 
 
 ## Citation
