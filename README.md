@@ -33,7 +33,6 @@ Please prepare the following datasets before training and testing:
 - RegDB
 - LLCM
 
-Organize the datasets under your local dataset directory.
 
 ## Training
 Example command:
