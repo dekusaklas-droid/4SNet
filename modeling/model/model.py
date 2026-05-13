@@ -128,38 +128,6 @@ class base_resnet(nn.Module):
         return x
 
 
-class DEE_module(nn.Module):
-    def __init__(self, channel, reduction=16):
-        super(DEE_module, self).__init__()
-
-        self.FC11 = nn.Conv2d(channel, channel // 4, kernel_size=3, stride=1, padding=1, bias=False, dilation=1)
-        self.FC11.apply(weights_init_kaiming)
-        self.FC12 = nn.Conv2d(channel, channel // 4, kernel_size=3, stride=1, padding=2, bias=False, dilation=2)
-        self.FC12.apply(weights_init_kaiming)
-        self.FC13 = nn.Conv2d(channel, channel // 4, kernel_size=3, stride=1, padding=3, bias=False, dilation=3)
-        self.FC13.apply(weights_init_kaiming)
-        self.FC1 = nn.Conv2d(channel // 4, channel, kernel_size=1)
-        self.FC1.apply(weights_init_kaiming)
-
-        self.FC21 = nn.Conv2d(channel, channel // 4, kernel_size=3, stride=1, padding=1, bias=False, dilation=1)
-        self.FC21.apply(weights_init_kaiming)
-        self.FC22 = nn.Conv2d(channel, channel // 4, kernel_size=3, stride=1, padding=2, bias=False, dilation=2)
-        self.FC22.apply(weights_init_kaiming)
-        self.FC23 = nn.Conv2d(channel, channel // 4, kernel_size=3, stride=1, padding=3, bias=False, dilation=3)
-        self.FC23.apply(weights_init_kaiming)
-        self.FC2 = nn.Conv2d(channel // 4, channel, kernel_size=1)
-        self.FC2.apply(weights_init_kaiming)
-        self.dropout = nn.Dropout(p=0.01)
-
-    def forward(self, x):
-        x1 = (self.FC11(x) + self.FC12(x) + self.FC13(x)) / 3
-        x1 = self.FC1(F.relu(x1))
-        x2 = (self.FC21(x) + self.FC22(x) + self.FC23(x)) / 3
-        x2 = self.FC2(F.relu(x2))
-        out = torch.cat((x1, x, x2), 0)
-        out = self.dropout(out)
-        return out
-
 
 class CNL(nn.Module):
     def __init__(self, high_dim, low_dim, flag=0):
