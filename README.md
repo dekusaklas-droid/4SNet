@@ -25,11 +25,15 @@ cd code
 - NVIDIA RTX 4090
 
 ## Datasets
-Please prepare the following datasets before training and testing:
+- (1) RegDB Dataset [3]: The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
 
-- SYSU-MM01
-- RegDB
-- LLCM
+    - (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website). 
+  
+- (2) SYSU-MM01 Dataset [4]: The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm).
+
+   - run `python pre_process_sysu.py` to pepare the dataset, the training data will be stored in ".npy" format.
+ 
+- (3) LLCM Dataset [5]: The LLCM dataset can be downloaded by sending a signed [dataset release agreement](https://github.com/ZYK100/LLCM/blob/main/Agreement/LLCM%20DATASET%20RELEASE%20AGREEMENT.pdf) copy to zhangyk@stu.xmu.edu.cn. 
 
 
 ## Training
