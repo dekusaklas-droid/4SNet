@@ -36,35 +36,9 @@ Please create a `data/` folder under the root directory and place the downloaded
 
 The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
 
-On the website, it is named:
-
-```text
-Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)
-```
-
-After downloading the RegDB dataset, please place it under:
-
-```text
-data/RegDB/
-```
-
 ### SYSU-MM01 Dataset
 
 The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm).
-
-After downloading the SYSU-MM01 dataset, please place it under:
-
-```text
-data/SYSU-MM01/
-```
-
-Then run the following command to prepare the dataset:
-
-```bash
-python pre_process_sysu.py
-```
-
-The processed training data will be stored in `.npy` format.
 
 ### LLCM Dataset
 
@@ -73,13 +47,6 @@ The LLCM dataset can be downloaded by sending a signed [dataset release agreemen
 ```text
 zhangyk@stu.xmu.edu.cn
 ```
-
-After downloading the LLCM dataset, please place it under:
-
-```text
-data/LLCM/
-```
-
 ## Training
 
 Train a model by:
